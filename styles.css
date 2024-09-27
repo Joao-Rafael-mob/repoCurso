@@ -1,3 +1,25 @@
+
+body {
+    background-color: #0c302b;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+.hero-section {
+    background-color: #142f26;
+    text-align: center;
+}
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f7a73b;
+}
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+
 .imagem-fundo {
     background-color: rgb(16, 236, 64);
     background-position: center;
