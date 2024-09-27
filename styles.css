@@ -59,11 +59,13 @@ body {
 }
 
 main  {
-    background-color: rgb(192, 61, 61);
+    background-color: #0A512B;
     
 }
 main .mostraProduto{
     margin-bottom:0px ;
 }
 main .card{
-    box-shadow: 0px 5px 10px rgb(255, 255, 255);}
+    box-shadow: 0px 5px 10px #04BD2C;
+    background-color: #CCFDD5;
+}
