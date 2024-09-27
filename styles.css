@@ -18,6 +18,7 @@
     font-size: medium;
     padding: 0.4rem;
 }
+
 .imagem-fundo .navbar .nav-link2 {
     background-color: rgb(255, 255, 255);
     border-radius: 1rem;
@@ -35,20 +36,34 @@
     text-decoration: none;
 }
 
-main .formas {
+main  {
     background-color: rgb(192, 61, 61);
-    padding-left: 1rem;
-    padding-right: 1rem; 
+    
 }
 
-main .formas .card{
+main .meio-1 .card {
     margin-left: 3rem;
     margin-right: 3rem;
 }
 
-
-main .formas a {
+s main .meio-1 a {
     text-decoration: none;
+}
+
+main .card-custom {
+    border: none;
+    /* Remove the border */
+    border-radius: 0;
+    /* Remove rounded corners if needed */
+    box-shadow: none;
+    /* Remove shadow if present */
+}
+
+main .card-img-top {
+    max-height: 150px;
+    /* Limita a altura da imagem */
+    object-fit: cover;
+    /* Para cobrir a área da imagem sem distorcer */
 }
 
 main .cards {
@@ -62,8 +77,9 @@ main .cards {
     main .cards {
         margin: auto;
     }
-    main .formas .card{
+
+    main .meio-1 .card {
         margin: 0;
     }
-    
+
 }
