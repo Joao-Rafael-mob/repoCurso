@@ -1,0 +1,85 @@
+.imagem-fundo {
+    background-color: rgb(16, 236, 64);
+    background-position: center;
+    color: white;
+    width: 100%;
+    min-height: 16rem;
+}
+
+.imagem-fundo .navbar img {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 10rem;
+    height: 2rem;
+}
+
+.imagem-fundo .navbar a {
+    text-decoration: none;
+    font-size: medium;
+    padding: 0.4rem;
+}
+
+.imagem-fundo .navbar .nav-link2 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+}
+
+.imagem-fundo .address {
+    width: 50%;
+    padding-top: 3rem;
+    margin: auto;
+}
+
+.imagem-fundo .address a {
+    width: 50%;
+    margin: auto;
+    text-decoration: none;
+}
+
+main  {
+    background-color: rgb(192, 61, 61);
+    
+}
+
+main .meio-1 .card {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+s main .meio-1 a {
+    text-decoration: none;
+}
+
+main .card-custom {
+    border: none;
+    /* Remove the border */
+    border-radius: 0;
+    /* Remove rounded corners if needed */
+    box-shadow: none;
+    /* Remove shadow if present */
+}
+
+main .card-img-top {
+    max-height: 150px;
+    /* Limita a altura da imagem */
+    object-fit: cover;
+    /* Para cobrir a área da imagem sem distorcer */
+}
+
+main .cards {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin-left: 30%;
+
+}
+
+@media (max-width: 600px) {
+    main .cards {
+        margin: auto;
+    }
+
+    main .meio-1 .card {
+        margin: 0;
+    }
+
+}
